@@ -1,4 +1,4 @@
-##Vital Signs Tracking CLI Application  
+Vital Signs Tracking CLI Application  
 
 A command-line application for tracking daily vital signs such as blood pressure, pulse rate, weight, and temperature. This application allows users to record and view health metrics over time, with the option to add notes for each entry. It also provides visualizations for better analysis of health trends within a specified date range.  
 
@@ -49,20 +49,20 @@ Choose the exit option to close the application.
 
 File Structure  
 
-main.py: The main entry point of the application, including the menu and core functions for data input and display.
-csv_source: Contains the methods for reading and writing to the CSV file.
-AddData.py: Contains input validation and data prompting functions.
+main.py: The main entry point of the application, including the menu and core functions for data input and display.  
+csv_source: Contains the methods for reading and writing to the CSV file.  
+AddData.py: Contains input validation and data prompting functions.  
 vitals.csv: The CSV file where all records are stored.  
 
 Code Structure  
 
 csv_source Class
-get_data: Loads the CSV file or creates a new one if it doesn’t exist.
+get_data: Loads the CSV file or creates a new one if it doesn’t exist.  
 show_range: Displays records within a specific date range and generates a visualization if requested.  
 
 Utility Functions  
 
-add_or_update_record: Adds a new entry or updates an existing record if the date already exists.
+add_or_update_record: Adds a new entry or updates an existing record if the date already exists.  
 get_date, get_bp, get_pulse_rate, get_weight, get_temp, get_notes: Utility functions for validating and collecting user input for each data field.  
 
 License
