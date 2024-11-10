@@ -1,0 +1,17 @@
+
+# Ignore the virtual environment
+.venv/
+
+# Other common Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Ignore any environment variables files
+.env
+
+# some text and csv files
+*.csv
+*.txt.txt
