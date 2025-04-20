@@ -1,0 +1,7 @@
+stages:
+  - check
+
+ping_job:
+  stage: check
+  script:
+    - echo "Hello from GitLab CI/CD!"
