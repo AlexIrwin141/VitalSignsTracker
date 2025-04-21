@@ -1,7 +1,14 @@
 stages:
   - check
+  - test
+	
 
 ping_job:
   stage: check
   script:
     - echo "Hello from GitLab CI/CD!"
+
+test:
+  stage: test
+  script:
+    - echo "ci/cd ax tiggered"
