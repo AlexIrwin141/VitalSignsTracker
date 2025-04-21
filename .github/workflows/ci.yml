@@ -1,0 +1,16 @@
+name: Basic CI Test
+
+on:
+  push:
+    branches:
+      - main  # or 'master' if that's your branch name
+
+jobs:
+  test-echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Say hi from GitHub Actions
+        run: echo "✅ CI/CD triggered by a push!"
