@@ -1,7 +1,6 @@
 stages:
   - check
   - test
-	
 
 ping_job:
   stage: check
@@ -11,4 +10,4 @@ ping_job:
 test:
   stage: test
   script:
-    - echo "ci/cd ax tiggered"
+    - echo "ci/cd ax triggered"
